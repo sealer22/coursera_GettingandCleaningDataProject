@@ -1,11 +1,7 @@
 
 ##1. Variable
 
-The following are the variables that are selected in tiny data. The set of variables that were chosen from these signals are:
-
-*mean: Mean value
-
-*std: Standard deviation
+The following are the variables that are selected in tiny data:
 
 
 "tBodyAcc-mean()-X","tBodyAcc-mean()-Y","tBodyAcc-mean()-Z","tBodyAcc-std()-X",

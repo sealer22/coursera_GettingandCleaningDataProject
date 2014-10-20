@@ -2,7 +2,7 @@ coursera_GettingandCleaningDataProject
 ======================================
 ##1. Intro:
 
-This repository is for coursera:Getting andCleaning Data project2.
+This repository is for coursera:Getting andCleaning Data project.
 
 ##2. Dataset:
 
