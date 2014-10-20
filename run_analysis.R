@@ -63,5 +63,5 @@ data_tidy <- dcast(data_melt , Activity + subject ~ variable, mean)
 # recast the data
 
 
-write.table(data_tidy, file = "./tidy_data.txt", sep = ",")
+write.table(data_tidy, file = "./tidy_data.txt", sep = ",", row.name = F)
 # write data into file
