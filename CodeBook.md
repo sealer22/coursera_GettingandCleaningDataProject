@@ -1,57 +1,57 @@
 
 ##1. Data
 
-*Original data: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+* Original data: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
-*Description: "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
+* Description: "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
 
 
 The files within the dataset are listed below:
 
-    *'README.txt'
+    * 'README.txt'
 
-    *'activity_labels.txt'
+    * 'activity_labels.txt'
 
-    *'features.txt'
+    * 'features.txt'
 
-    *'features_info.txt'
+    * 'features_info.txt'
 
-    *'test/subject_test.txt'
+    * 'test/subject_test.txt'
 
-    *'test/X_test.txt'
+    * 'test/X_test.txt'
 
-    *'test/y_test.txt'
+    * 'test/y_test.txt'
 
-    *'test/Inertial Signals/total_acc_(x,y,z)_test.txt'
+    * 'test/Inertial Signals/total_acc_(x,y,z)_test.txt'
 
-    *'test/Inertial Signals/body_acc_(x,y,z)_test.txt'
+    * 'test/Inertial Signals/body_acc_(x,y,z)_test.txt'
 
-    *'test/Inertial Signals/body_gyro_(x,y,z)_test.txt'
+    * 'test/Inertial Signals/body_gyro_(x,y,z)_test.txt'
 
-    *'train/subject_train.txt'
+    * 'train/subject_train.txt'
 
-    *'train/X_train.txt'
+    * 'train/X_train.txt'
 
-    *'train/y_train.txt'
+    * 'train/y_train.txt'
 
-    *'train/Inertial Signals/total_acc_(x,y,z)_train.txt'
+    * 'train/Inertial Signals/total_acc_(x,y,z)_train.txt'
 
-    *'train/Inertial Signals/body_acc_(x,y,z)_train.txt'
+    * 'train/Inertial Signals/body_acc_(x,y,z)_train.txt'
 
-    *'train/Inertial Signals/body_gyro_(x,y,z)_train.txt'
+    * 'train/Inertial Signals/body_gyro_(x,y,z)_train.txt'
 
 
 ##2. Work
 
-*use the UCI HAR Dataset as its input
+* use the UCI HAR Dataset as its input
 
-*combine the train and test dataset
+* combine the train and test dataset
 
-*specify the measurments of mean and standard deviation
+* specify the measurments of mean and standard deviation
 
-*calculate the means of all the columns based on subject and activity.
+* calculate the means of all the columns based on subject and activity.
 
-*write the result into a file called tiny_data.txt(sep by ",")
+* write the result into a file called tiny_data.txt(sep by ",")
 
 
 
@@ -62,166 +62,166 @@ The following are the variables that are selected in tiny data:
 
 "tBodyAcc-mean()-X"
 
-@ "tBodyAcc-mean()-Y"
+7. "tBodyAcc-mean()-Y"
 
-@ "tBodyAcc-mean()-Z"
+7. "tBodyAcc-mean()-Z"
 
-@ "tBodyAcc-std()-X"
+7. "tBodyAcc-std()-X"
 
-@ "tBodyAcc-std()-Y"
+7. "tBodyAcc-std()-Y"
 
-@ "tBodyAcc-std()-Z"
+7. "tBodyAcc-std()-Z"
 
-@ "tGravityAcc-mean()-X"
+7. "tGravityAcc-mean()-X"
 
-@ "tGravityAcc-mean()-Y"
+7. "tGravityAcc-mean()-Y"
 
-@ "tGravityAcc-mean()-Z"
+7. "tGravityAcc-mean()-Z"
 
-@ "tGravityAcc-std()-X"
+7. "tGravityAcc-std()-X"
 
-@ "tGravityAcc-std()-Y"
+7. "tGravityAcc-std()-Y"
 
-@ "tGravityAcc-std()-Z"
+7. "tGravityAcc-std()-Z"
 
-@ "tBodyAccJerk-mean()-X"
+7. "tBodyAccJerk-mean()-X"
 
-@ "tBodyAccJerk-mean()-Y"
+7. "tBodyAccJerk-mean()-Y"
 
-@ "tBodyAccJerk-mean()-Z"
+7. "tBodyAccJerk-mean()-Z"
 
-@ "tBodyAccJerk-std()-X"
+7. "tBodyAccJerk-std()-X"
 
-@ "tBodyAccJerk-std()-Y"
+7. "tBodyAccJerk-std()-Y"
 
-@ "tBodyAccJerk-std()-Z"
+7. "tBodyAccJerk-std()-Z"
 
-@ "tBodyGyro-mean()-X"
+7. "tBodyGyro-mean()-X"
 
-@ "tBodyGyro-mean()-Y"
+7. "tBodyGyro-mean()-Y"
 
-@ "tBodyGyro-mean()-Z"
+7. "tBodyGyro-mean()-Z"
 
-@ "tBodyGyro-std()-X"
+7. "tBodyGyro-std()-X"
 
-@ "tBodyGyro-std()-Y"
+7. "tBodyGyro-std()-Y"
 
-@ "tBodyGyro-std()-Z"
+7. "tBodyGyro-std()-Z"
 
-@ "tBodyGyroJerk-mean()-X"
+7. "tBodyGyroJerk-mean()-X"
 
-@ "tBodyGyroJerk-mean()-Y"
+7. "tBodyGyroJerk-mean()-Y"
 
-@ "tBodyGyroJerk-mean()-Z"
+7. "tBodyGyroJerk-mean()-Z"
 
-@ "tBodyGyroJerk-std()-X"
+7. "tBodyGyroJerk-std()-X"
 
-@ "tBodyGyroJerk-std()-Y"
+7. "tBodyGyroJerk-std()-Y"
 
-@ "tBodyGyroJerk-std()-Z"
+7. "tBodyGyroJerk-std()-Z"
 
-@ "tBodyAccMag-mean()"
+7. "tBodyAccMag-mean()"
 
-@ "tBodyAccMag-std()"
+7. "tBodyAccMag-std()"
 
-@ "tGravityAccMag-mean()"
+7. "tGravityAccMag-mean()"
 
-@ "tGravityAccMag-std()"
+7. "tGravityAccMag-std()"
 
-@ "tBodyAccJerkMag-mean()"
+7. "tBodyAccJerkMag-mean()"
 
-@ "tBodyAccJerkMag-std()"
+7. "tBodyAccJerkMag-std()"
 
-@ "tBodyGyroMag-mean()"
+7. "tBodyGyroMag-mean()"
 
-@ "tBodyGyroMag-std()"
+7. "tBodyGyroMag-std()"
 
-@ "tBodyGyroJerkMag-mean()"
+7. "tBodyGyroJerkMag-mean()"
 
-@ "tBodyGyroJerkMag-std()"
+7. "tBodyGyroJerkMag-std()"
 
-@ "fBodyAcc-mean()-X"
+7. "fBodyAcc-mean()-X"
 
-@ "fBodyAcc-mean()-Y"
+7. "fBodyAcc-mean()-Y"
 
-@ "fBodyAcc-mean()-Z"
+7. "fBodyAcc-mean()-Z"
 
-@ "fBodyAcc-std()-X"
+7. "fBodyAcc-std()-X"
 
-@ "fBodyAcc-std()-Y"
+7. "fBodyAcc-std()-Y"
 
-@ "fBodyAcc-std()-Z"
+7. "fBodyAcc-std()-Z"
 
-@ "fBodyAcc-meanFreq()-X"
+7. "fBodyAcc-meanFreq()-X"
 
-@ "fBodyAcc-meanFreq()-Y"
+7. "fBodyAcc-meanFreq()-Y"
 
-@ "fBodyAcc-meanFreq()-Z"
+7. "fBodyAcc-meanFreq()-Z"
 
-@ "fBodyAccJerk-mean()-X"
+7. "fBodyAccJerk-mean()-X"
 
-@ "fBodyAccJerk-mean()-Y"
+7. "fBodyAccJerk-mean()-Y"
 
-@ "fBodyAccJerk-mean()-Z"
+7. "fBodyAccJerk-mean()-Z"
 
-@ "fBodyAccJerk-std()-X"
+7. "fBodyAccJerk-std()-X"
 
-@ "fBodyAccJerk-std()-Y"
+7. "fBodyAccJerk-std()-Y"
 
-@ "fBodyAccJerk-std()-Z"
+7. "fBodyAccJerk-std()-Z"
 
-@ "fBodyAccJerk-meanFreq()-X"
+7. "fBodyAccJerk-meanFreq()-X"
 
-@ "fBodyAccJerk-meanFreq()-Y"
+7. "fBodyAccJerk-meanFreq()-Y"
 
-@ "fBodyAccJerk-meanFreq()-Z"
+7. "fBodyAccJerk-meanFreq()-Z"
 
-@ "fBodyGyro-mean()-X"
+7. "fBodyGyro-mean()-X"
 
-@ "fBodyGyro-mean()-Y"
+7. "fBodyGyro-mean()-Y"
 
-@ "fBodyGyro-mean()-Z"
+7. "fBodyGyro-mean()-Z"
 
-@ "fBodyGyro-std()-X"
+7. "fBodyGyro-std()-X"
 
-@ "fBodyGyro-std()-Y"
+7. "fBodyGyro-std()-Y"
 
-@ "fBodyGyro-std()-Z"
+7. "fBodyGyro-std()-Z"
 
-@ "fBodyGyro-meanFreq()-X"
+7. "fBodyGyro-meanFreq()-X"
 
-@ "fBodyGyro-meanFreq()-Y"
+7. "fBodyGyro-meanFreq()-Y"
 
-@ "fBodyGyro-meanFreq()-Z"
+7. "fBodyGyro-meanFreq()-Z"
 
-@ "fBodyAccMag-mean()"
+7. "fBodyAccMag-mean()"
 
-@ "fBodyAccMag-std()"
+7. "fBodyAccMag-std()"
 
-@ "fBodyAccMag-meanFreq()"
+7. "fBodyAccMag-meanFreq()"
 
-@ "fBodyBodyAccJerkMag-mean()"
+7. "fBodyBodyAccJerkMag-mean()"
 
-@ "fBodyBodyAccJerkMag-std()"
+7. "fBodyBodyAccJerkMag-std()"
 
-@ "fBodyBodyAccJerkMag-meanFreq()"
+7. "fBodyBodyAccJerkMag-meanFreq()"
 
-@ "fBodyBodyGyroMag-mean()"
+7. "fBodyBodyGyroMag-mean()"
 
-@ "fBodyBodyGyroMag-std()"
+7. "fBodyBodyGyroMag-std()"
 
-@ "fBodyBodyGyroMag-meanFreq()"
+7. "fBodyBodyGyroMag-meanFreq()"
 
-@ "fBodyBodyGyroJerkMag-mean()"
+7. "fBodyBodyGyroJerkMag-mean()"
 
-@ "fBodyBodyGyroJerkMag-std()"
+7. "fBodyBodyGyroJerkMag-std()"
 
-@ "fBodyBodyGyroJerkMag-meanFreq()"
+7. "fBodyBodyGyroJerkMag-meanFreq()"
 
 
 
 The set of variables that were estimated from these signals are:
 
-*mean: Mean value
+* mean: Mean value
 
-*std: Standard deviation
+* std: Standard deviation
